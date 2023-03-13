@@ -1,0 +1,65 @@
+#projects-title{
+    background: linear-gradient(to right, #f70052, #F79D00);
+    color: #fff;
+    margin-left: 2.6%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    height: 55px;
+    
+}
+
+#link{
+    margin-bottom: 10px;
+}
+
+@media (min-width: 901px){
+    .card {
+      margin-left: 3%;
+      margin-top: 2%;
+      position: relative;
+      height: auto;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      transition: height 0.5s ease;
+      display: flex;
+    }
+    .card-content {
+      display: grid;
+      margin-left: 2%;
+      margin-top: 10px;
+      align-items: center;
+      justify-content: left;
+    }
+  }
+  @media (max-width: 900px){
+    .card {
+      margin-left: 3%;
+      margin-top: 2%;
+      position: relative;
+      height: auto;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      transition: height 0.5s ease;
+    }
+    .card-content {
+      margin-left: 2%;
+      margin-top: 10px;
+    }
+  }
+  .carousel {
+    width: 40%; /* ajusta el tamaño del carrusel */
+    margin: 0 auto; /* centra el carrusel horizontalmente */
+  }
+  
+  .carousel img {
+    width: 100%; /* ajusta el tamaño de las imágenes */
+    height: auto; /* ajusta la altura de las imágenes proporcionalmente */
+  }
+  
+  .carousel .arrow {
+    font-size: 2rem; /* ajusta el tamaño de las flechas */
+  }
+  
