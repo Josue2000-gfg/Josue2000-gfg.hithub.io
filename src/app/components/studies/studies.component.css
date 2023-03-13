@@ -50,19 +50,3 @@
     justify-content: left;
   }
 }
-@media (max-width: 900px){
-  .card {
-    margin-left: 3%;
-    margin-top: 2%;
-    position: relative;
-    height: auto;
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    transition: height 0.5s ease;
-  }
-  .card-content {
-    margin-left: 2%;
-    margin-top: 10px;
-  }
-}
